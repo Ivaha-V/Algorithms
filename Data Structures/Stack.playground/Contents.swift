@@ -54,7 +54,7 @@ class StackTests: XCTestCase {
         stackMock.push(value)
         
         // Then
-        XCTAssertEqual(stackMock.topValue, value, "Stack doesn't have pushed value at top")
+        XCTAssertEqual(stackMock.topValue, value, "Stack hasn't pushed value at the top")
     }
     
     func testStackDoesNotHaveValueAfterPop() {
