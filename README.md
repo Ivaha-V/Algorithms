@@ -3,6 +3,7 @@
 A collection of different algorithms and data structures written in Swift Programming Language.
 
 **Algorightms**:
+- [Insertion Sort](https://github.com/Vitalii-Ivashchenko/Algorithms-and-DataStructures/blob/main/Algorithms/InsertionSort.playground/Contents.swift)
 - [Selection Sort](https://github.com/Vitalii-Ivashchenko/Algorithms-and-DataStructures/blob/main/Algorithms/SelectionSort.playground/Contents.swift)
 
 **Data Structures**: 
