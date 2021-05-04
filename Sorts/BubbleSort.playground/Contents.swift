@@ -27,8 +27,8 @@ extension Array where Element: Comparable {
             return
         }
         
-        for _ in 1 ..< array.count {
-            for bubble in 1 ..< array.count {
+        for i in 1 ..< array.count {
+            for bubble in 1 ..< array.count - i + 1 {
                 if areInIncreasingOrder(array[bubble], array[bubble - 1]) {
                     array.swapAt(bubble, bubble - 1)
                 }
